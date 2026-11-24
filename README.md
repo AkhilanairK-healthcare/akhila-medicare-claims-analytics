@@ -26,11 +26,26 @@ Full notes: data_notes/data_dictionary.md
 ## Headline results (all computed in sql/ and notebooks/)
 - Total claims: 5,598,898  |  Total paid: $1,278,388,580
 - Highest-spend claim type: Inpatient ($639,260,180, 50.0% of paid)
-- Top ICD-9 diagnosis by paid: V5789 ($28,649,590)
+- Top ICD-9 diagnosis by paid: V5789 - Care involving other
+  specified rehabilitation procedure ($28,649,590)
 - Unpaid claim rate: Inpatient 3.2% | Outpatient 3.8%
   | Carrier 10.1%
 - Costliest chronic condition per patient: Stroke/TIA ($17,717.87/yr)
 - Patients with repeat stays: 15,168 (40.15% of patients with a hospital stay)
+
+## Top 10 diagnoses by paid (ICD-9, with plain names)
+- V5789 - Care involving other specified rehabilitation procedure - $28,649,590
+- 41401 - Coronary atherosclerosis of native coronary artery - $24,810,210
+- 0389 - Unspecified septicemia - $24,473,380
+- 486 - Pneumonia, organism unspecified - $17,170,370
+- 41071 - Subendocardial infarction, initial episode of care - $14,844,600
+- 51881 - Acute respiratory failure - $14,563,940
+- 71536 - Osteoarthrosis, localized, not specified whether primary or secondary, lower leg - $13,362,360
+- 4280 - Congestive heart failure, unspecified - $11,482,170
+- 49121 - Obstructive chronic bronchitis with (acute) exacerbation - $10,422,780
+- 5849 - Acute kidney failure, unspecified - $9,054,000
+Codes are shown as stored in the data, without the dot
+(V5789 = V57.89). Names are the official ICD-9-CM descriptions.
 
 ## Dashboard (5 pages)
 1 Executive Overview
