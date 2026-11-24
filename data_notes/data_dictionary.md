@@ -8,5 +8,5 @@ Chronic flags: 1 = has condition, 2 = does not have condition.
 Carrier paid amount = sum of LINE_NCH_PMT_AMT_1 to _13.
 Join key everywhere: DESYNPUF_ID. Claim key: CLM_ID.
 Row counts (fill in from 00_load_data.ipynb):
-beneficiary = ___  inpatient = ___  outpatient = ___
-carrier = ___  pde = ___
+beneficiary = 116352  inpatient = 66773  outpatient = 790790
+carrier = 4741335  pde = 5552421
